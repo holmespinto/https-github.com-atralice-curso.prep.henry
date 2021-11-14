@@ -90,7 +90,7 @@ describe('resta(x, y)', function() {
 
 describe('divide(x, y)', function() {
   it('Deberia devolver la division de los dos argumentos', function() {
-    expect(divide(5, 5)).toBe(1);
+    expect(divide(15, 5)).toBe(1);
     expect(divide(10, 5)).toBe(2);
     expect(divide(11, 2)).toBe(5.5);
   });
